@@ -14,9 +14,10 @@ to become a web developer.
 
 ## Daily Learning Log
 
-| Date     | Topics Learned                        |
-|----------|---------------------------------------|
-|2026-10-02|Learn making routes                    |
+| Date       | Topics Learned                                         |
+| ---------- |--------------------------------------------------------|
+| 2026-10-02 |Learn making routes                                     |
+| 2026-10-03 |Create Database tables with migration                   |
 
 
 ## My Goal
