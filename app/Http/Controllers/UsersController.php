@@ -15,6 +15,12 @@ class UsersController extends Controller
             'number' => $request->number,
         ]);
 
-        return redirect()->back();
+        return redirect()->route('users.index');
+    }
+
+    public function index(){
+        $users = Users::all();
+
+        return view('users', compact('users'));
     }
 }

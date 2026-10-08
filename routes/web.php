@@ -12,3 +12,5 @@ Route::get('/adduser', function(){
 });
 
 Route::post('/useraccount', [UsersController::class, 'store'])->name('useraccount.store');
+
+Route::get('/users', [UsersController::class, 'index'])->name('users.index');
