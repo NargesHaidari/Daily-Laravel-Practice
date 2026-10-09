@@ -20,6 +20,7 @@ to become a web developer.
 | 2026-10-03 |Create Database tables with migration                   |
 | 2026-10-04 |Add Data in Database tables                             |
 | 2026-10-08 |Getting data from Database                              |
+| 2026-10-09 |Getting data from Database                              |
 
 
 ## My Goal

@@ -9,7 +9,7 @@ Route::get('/', function () {
 
 Route::get('/adduser', function(){
     return view('adduser');
-});
+})->name('adduser');
 
 Route::post('/useraccount', [UsersController::class, 'store'])->name('useraccount.store');
 
