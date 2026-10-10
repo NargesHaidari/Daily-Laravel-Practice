@@ -299,7 +299,7 @@
 
                                 <!-- Edit User -->
                                 <a
-                                    href="{{ url('/users/' . $user->id . '/edit') }}"
+                                    href="{{ route('useraccount.edit', [$user->id]) }}"
                                     class="btn edit-btn"
                                 >
                                     Edit
