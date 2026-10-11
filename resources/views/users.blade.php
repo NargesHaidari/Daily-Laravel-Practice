@@ -307,7 +307,7 @@
 
                                 <!-- Delete User -->
                                 <form
-                                    action="{{ url('/users/' . $user->id) }}"
+                                    action="{{ route('useraccount.delete', [$user->id]) }}"
                                     method="POST"
                                     class="delete-form"
                                     onsubmit="return confirm('Are you sure you want to delete this user?');"
