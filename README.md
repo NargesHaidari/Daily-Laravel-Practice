@@ -23,6 +23,7 @@ to become a web developer.
 | 2026-10-09 |Getting data from Database                              |
 | 2026-10-10 |Edit and Update data in Database                        |
 | 2026-10-11 |Delete data in Database records                         |
+| 2026-10-12 |Creating a User Profile Page in Laravel                 |
 
 
 ## My Goal

@@ -197,6 +197,7 @@
 
         <form action="{{ route('useraccount.update', [$user->id]) }}" method="POST">
             @csrf
+            @method('PUT')
 
             <!-- Name -->
             <div class="form-group">

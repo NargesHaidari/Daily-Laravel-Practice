@@ -18,6 +18,11 @@ Route::get('/users', [UsersController::class, 'index'])->name('users.index');
 
 Route::get('/users/{id}/edit', [UsersController::class, 'edit'])->name('useraccount.edit');
 
-Route::post('/users/{id}', [UsersController::class, 'update'])->name('useraccount.update');
+Route::put('/users/{id}', [UsersController::class, 'update'])->name('useraccount.update');
 
-Route::delete('/users/{id}/delete', [UsersController::class, 'destroy'])->name('useraccount.delete');
+Route::delete('/users/{id}', [UsersController::class, 'destroy'])->name('useraccount.delete');
+
+Route::get('/account/{id}', function($id){
+    $account = Users::findOrFail($id);
+    return view('account', compact('account'));
+})->name('account.show');
