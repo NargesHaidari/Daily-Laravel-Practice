@@ -14,16 +14,17 @@ to become a web developer.
 
 ## Daily Learning Log
 
-| Date       | Topics Learned                                         |
-| ---------- |--------------------------------------------------------|
-| 2026-10-02 |Learn making routes                                     |
-| 2026-10-03 |Create Database tables with migration                   |
-| 2026-10-04 |Add Data in Database tables                             |
-| 2026-10-08 |Getting data from Database                              |
-| 2026-10-09 |Getting data from Database                              |
-| 2026-10-10 |Edit and Update data in Database                        |
-| 2026-10-11 |Delete data in Database records                         |
-| 2026-10-12 |Creating a User Profile Page in Laravel                 |
+| Date       | Topics Learned                                          |
+| ---------- |---------------------------------------------------------|
+| 2026-10-02 |Learn making routes                                      |
+| 2026-10-03 |Create Database tables with migration                    |
+| 2026-10-04 |Add Data in Database tables                              |
+| 2026-10-08 |Getting data from Database                               |
+| 2026-10-09 |Getting data from Database                               |
+| 2026-10-10 |Edit and Update data in Database                         |
+| 2026-10-11 |Delete data in Database records                          |
+| 2026-10-12 |Creating a User Profile Page in Laravel                  |
+| 2026-10-13 |Add Edit and Delete functionality for Profile Page       |
 
 
 ## My Goal

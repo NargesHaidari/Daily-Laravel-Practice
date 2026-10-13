@@ -9,21 +9,16 @@ class UsersController extends Controller
 {
     public function store(Request $request){
 
-        $request->validate([
+        $data = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'number' => 'required|string|max:30',
             'password' => 'nullable|string|min:6',
         ]);
 
-        Users::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => $request->password,
-            'number' => $request->number,
-        ]);
+        $user = Users::create($data);
 
-        return redirect()->route('users.index');
+        return redirect('/account/' . $user->id);
     }
 
     public function index(){
@@ -49,13 +44,13 @@ class UsersController extends Controller
 
         $user->update($data);
 
-        return redirect('/users');
+        return redirect('/account/' . $id);
     }
 
     public function destroy($id){
         $user = Users::findOrFail($id);
         $user->delete();
 
-        return redirect()->back();
+        return redirect('users');
     }
 }
